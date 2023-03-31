@@ -1,0 +1,289 @@
+@font-face {
+    font-family: Bahnschrift;
+    src: url(Bahnschrift/BAHNSCHRIFT.TTF);
+}
+
+#container {
+    width: 970px;
+    min-height: 600px;
+    background-color: rgb(65, 63, 63);
+    font-family: Bahnschrift;
+}
+
+#php_nav {
+    width: 970px;
+    min-height: 25px;
+    background-color: rgb(170, 137, 235);
+    display: inline-block; 
+}
+
+#php_nav img {
+    width:35px;
+    height:35px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+#php_nav img:first-child {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 0px;
+}
+
+#php_nav img:last-child {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#php_nav ul {
+    display: inline-block;
+    font-size: 10px;
+    padding:0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#php_nav ul li {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#php_nav ul li:hover {
+    background-color: blueviolet;
+}
+
+#php_nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#container #php_nav input {
+    font-size: 10px;
+    width: 225px;
+    margin-left: 307px;
+    display: inline-block;
+}
+
+#php_nav_contents {
+    width: 970px;
+    min-height: 20px;
+    display: inline-block; 
+    background-color: none;
+}
+
+.navigation {
+    display: inline-block;
+    font-size: 8px;
+    padding:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.nav {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+#php_nav_contents #nav_main li:first-child {
+    margin-left: 60px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+}
+
+#php_nav_contents #nav_main2 li:first-child {
+    margin-left: 530px;
+    margin-right: 15px;
+}
+
+#contents {
+    width: 970px;
+    height: 465px;
+    display: inline-block;
+}
+
+#content_box {
+    width:670px;
+    height:460px;
+    background-color: white;
+    margin-left: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#content_box #language {
+    font-size: 10px;
+    margin-left: 465px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 5px;
+}
+
+#content_box select {
+    font-size: 8px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#requests_container {
+    height: 20px;
+    margin-top: -6px;
+}
+
+#navigation {
+    margin: 0px 0px 0px 518px;
+}
+
+.nav_language {
+    color: blue;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.nav2 {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+#content_box h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 5px;
+}
+
+#content_box #table_of_contents li a {
+    color: rgb(69, 4, 219);
+    font-size: 12px;
+}
+
+p {
+    font-size: 10px;
+    font-weight: 200;
+    margin: 20px;
+}
+
+#content_box h3 {
+    color: indigo;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 40px 15px 15px 15px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 5px;
+}
+
+#content_box h3 img {
+    width: 10px;
+    height: 10px;
+}
+
+#content_box h3 a {
+    font-size: 8px;
+    margin-left: 460px;
+    text-decoration: none;
+    border-bottom: 1px solid blue;
+}
+
+#getting_started {
+    width: 220px;
+    height: 460px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h4 {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 10px -15px 5px 10px;
+    border-bottom: 1px dotted rgb(85, 97, 109);
+    padding-bottom: 5px;
+}
+
+#getting_started #getting_started_links {
+    width: auto;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#getting_started #getting_started_links li {
+    padding: 0px 113px 0px 10px;
+    margin: 0px 10px 10px 8px;
+    border-bottom: 1px dotted rgb(85, 97, 109);
+}
+
+#getting_started #getting_started_links li:hover {
+    border-bottom: 1px dotted blueviolet;
+    list-style: circle;
+    list-style-position: inside;
+    padding: 1px;
+}
+
+#getting_started #getting_started_links li a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+}
+
+#getting_started #getting_started_links li a:hover {
+    color: blueviolet;
+}
+
+footer {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 38px;
+}
+
+footer #footer {
+    display: inline-block;
+    font-size: 10px;
+    padding:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer #footer li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer #footer li a:hover {
+    color: rgb(117, 68, 231);
+}
+
+footer #footer li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
